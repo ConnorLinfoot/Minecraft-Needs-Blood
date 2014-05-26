@@ -7,9 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 
-/**
- * Created by connor on 26/05/14.
- */
+
 public class OnDamage implements Listener {
     @EventHandler
     public void onDamage(EntityDamageEvent e){
