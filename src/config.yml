@@ -1,0 +1,37 @@
+# Minecraft Needs Blood
+# Version 2.0
+# By Connor Linfoot
+
+Send Stats: enabled
+Worlds: all
+Entitys:
+  All: true
+  Bat: false
+  Blaze: false
+  Cave Spider: false
+  Chicken: false
+  Cow: false
+  Creeper: false
+  Enderman: false
+  Ghast: false
+  Giant: false
+  Horse: false
+  Iron Golem: false
+  Magma Cube: false
+  Mushroom Cow: false
+  Ocelot: false
+  Pig: false
+  Player: false
+  Sheep: false
+  Silverfish: false
+  Skeleton: false
+  Slime: false
+  Snowman: false
+  Spider: false
+  Squid: false
+  Villager: false
+  Witch: false
+  Wither: false
+  Wolf: false
+  Zombie: false
+  Zombie Pigman: false
