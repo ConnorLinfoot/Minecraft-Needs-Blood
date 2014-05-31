@@ -4,6 +4,7 @@
 
 Send Stats: enabled
 Worlds: all
+Old Blood: false
 Entitys:
   All: true
   Bat: false

@@ -95,7 +95,11 @@ public class OnDamage implements Listener {
             if (allow.equals("true")) {
                 Location loc = entity.getLocation();
                 Effect effect = Effect.STEP_SOUND;
-                e.getEntity().getLocation().getWorld().playEffect(loc.add(0, 1, 0), effect, 152);
+                if(instance.getConfig().getString("Old Blood").equals("true")) {
+                    e.getEntity().getLocation().getWorld().playEffect(loc.add(0, 1, 0), effect, 152);
+                } else {
+                    e.getEntity().getLocation().getWorld().playEffect(loc.add(0, 1, 0), effect, 55);
+                }
             }
         }
     }
