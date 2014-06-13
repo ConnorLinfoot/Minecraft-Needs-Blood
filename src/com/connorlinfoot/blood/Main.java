@@ -1,5 +1,6 @@
 package com.connorlinfoot.blood;
 
+import com.connorlinfoot.blood.Commands.BloodCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Server;
@@ -31,9 +32,12 @@ public class Main extends JavaPlugin implements Listener {
             }
         }
         Bukkit.getPluginManager().registerEvents(new OnDamage(), this);
+        getCommand("blood").setExecutor(new BloodCommand()); // /blood command
+        getCommand("b").setExecutor(new BloodCommand()); // /b command
+
 
         console.sendMessage(ChatColor.GREEN + "====== Minecraft Needs Blood! ======");
-        console.sendMessage(ChatColor.GREEN + "=========== VERSION: 2.0 ===========");
+        console.sendMessage(ChatColor.GREEN + "=========== VERSION: 3.0 ===========");
         console.sendMessage(ChatColor.GREEN + "======== BY CONNOR LINFOOT! ========");
     }
 
