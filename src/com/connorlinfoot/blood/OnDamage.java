@@ -93,6 +93,10 @@ public class OnDamage implements Listener {
                 if (etype == EntityType.PIG_ZOMBIE && instance.getConfig().getString("Entitys.Zombie Pigman").equalsIgnoreCase("true"))
                     allow = "true";
 
+                // Check if entity is not a mob then allow = false
+                if(etype == EntityType.ARROW || etype == EntityType.MINECART || etype == EntityType.MINECART_CHEST || etype == EntityType.MINECART_COMMAND || etype == EntityType.MINECART_FURNACE || etype == EntityType.MINECART_HOPPER || etype == EntityType.MINECART_MOB_SPAWNER || etype == EntityType.MINECART_TNT || etype == EntityType.SPLASH_POTION || etype == EntityType.WITHER_SKULL || etype == EntityType.THROWN_EXP_BOTTLE || etype == EntityType.DROPPED_ITEM || etype == EntityType.PRIMED_TNT || etype == EntityType.MINECART_MOB_SPAWNER)
+                    allow = "false";
+
                 if (allow.equals("true")) {
                     Location loc = entity.getLocation();
                     Effect effect = Effect.STEP_SOUND;

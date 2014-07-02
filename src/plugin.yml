@@ -1,7 +1,7 @@
 name: Minecraft Needs Blood
 description: Have you ever thought that Minecraft needs blood? No. Well have it anyway!
 main: com.connorlinfoot.blood.Main
-version: 3.0
+version: 3.1
 commands:
   b:
     description: Main Command

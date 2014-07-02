@@ -37,7 +37,7 @@ public class Main extends JavaPlugin implements Listener {
 
 
         console.sendMessage(ChatColor.GREEN + "====== Minecraft Needs Blood! ======");
-        console.sendMessage(ChatColor.GREEN + "=========== VERSION: 3.0 ===========");
+        console.sendMessage(ChatColor.GREEN + "=========== VERSION: 3.1 ===========");
         console.sendMessage(ChatColor.GREEN + "======== BY CONNOR LINFOOT! ========");
     }
 
